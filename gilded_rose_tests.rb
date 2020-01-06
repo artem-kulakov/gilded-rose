@@ -16,7 +16,7 @@ class TestUntitled < Test::Unit::TestCase
       Item.new(name='Conjured Mana Cake', sell_in=3, quality=6), # <-- :O
     ]
 
-    days = 5
+    days = 10
 
     gilded_rose = GildedRose.new items
 
